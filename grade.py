@@ -10,7 +10,7 @@ print("The average marks: ", avg)
 
 if 0<s1<=39 or 0<s2<=39 or 0<s3<=39:
 	print("You failed.")
-elif s1==-1 or s2==-1or s3==-1:
+elif s1==-1 or s2==-1 or s3==-1:
 	print("Grade : N.A.")
 elif 80<=avg<=100:
 	print("Grade : O")
@@ -28,3 +28,4 @@ elif 40<=avg<=44:
 	print("Grade : P")
 elif 0<=avg<=39:
 	print("Grade : F")
+
