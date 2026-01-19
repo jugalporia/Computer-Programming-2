@@ -1,8 +1,6 @@
-string1 = input("Enter a string to count its vowels: ")
-v = 0
-
-for letter in string1:
-    if letter.lower() in "aeiou":
-        v += 1
-
-print("Number of vowels in the entered string are:", v)
+string=input("Enter a string: ")
+v=0
+for letters in string:
+    if letters in 'aeiouAEIOU':
+        v=v+1
+print(v)
