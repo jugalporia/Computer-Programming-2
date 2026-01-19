@@ -1,7 +1,4 @@
-n=int(input("Enter a number: "))
-c=0
-while n>0:
-    n=n//10
-    c=c+1
+n=input("Enter a number: "))
 
-print("Number of digits: ",c)
+
+print("Number of digits: ",len(n))
